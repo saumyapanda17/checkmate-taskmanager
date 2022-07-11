@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-zpf=wq!0^z)$n07@+y!m47@o&z794hr-3=_w*5(*1r(ll0^s%-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'checkmate-task.herokuapp.com'
+]
 
 
 # Application definition
